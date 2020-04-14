@@ -270,6 +270,9 @@ p {
     -ms-transition: all .3s linear;
     -o-transition: all .3s linear;
 }
+.content_text.cont-jeada {
+	transform: translateY(52%);
+}
 .content_overlay.active .content_text{
     transform: translateY(0%);
     -webkit-transform: translateY(0%);
@@ -291,9 +294,9 @@ p {
 .content_overlay.brack_span {
 	display: inline-block;
 }
-.content_overlay.active .brack_span {
+/* .content_overlay.active .brack_span {
 	display: block;
-}
+} */
 .close_btn {
 	position: absolute;
 	right: 38px;

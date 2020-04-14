@@ -4,6 +4,10 @@
         padding-bottom: 90px;
     }
 
+    .content_text.cont-jeada {
+        transform: translateY(53%);
+    }
+
     .profile_area {
         padding: 24px 20px 80px 19px;
     }
@@ -26,7 +30,23 @@
     }
 
     .heading h2 {
-        font-size: 33px;
+        font-size: 29px;
+    }
+
+    .close_btn {
+        top: 13px;
+    }
+
+    .single_content_card p {
+        padding-top: 22px;
+    }
+
+    .content_text.cont-jeada p {
+        padding-bottom: 8px;
+    }
+
+    .content_text.sec_cont {
+        transform: translateY(55%);
     }
 
 }
@@ -38,20 +58,28 @@
         padding-bottom: 90px;
     }
 
+    .content_text.cont-jeada {
+        transform: translateY(53%);
+    }
+
     .profile_area {
-        padding: 24px 20px 80px 19px;
+        padding: 24px 20px 95px 19px;
     }
 
     .profile_btns {
-        padding-top: 69px;
+        padding-top: 80px;
+    }
+
+    .profile_btns .mr-45 {
+        margin-right: 20px;
     }
 
     .content_overlay p.pera_pading {
-        padding-bottom: 85px;
+        padding-bottom: 60px;
     }
 
     .content_overlay.active p.pera_pading {
-        padding-bottom: 84px;
+        padding-bottom: 48px;
     }
 
     .close_btn {
@@ -60,11 +88,23 @@
     }
 
     .heading h2 {
-        font-size: 33px;
+        font-size: 29px;
     }
 
-    .content_btn.pt-res {
-        padding-top: 24px;
+    .close_btn {
+        top: 13px;
+    }
+
+    .single_content_card p {
+        padding-top: 22px;
+    }
+
+    .content_text.cont-jeada p {
+        padding-bottom: 8px;
+    }
+
+    .content_text.sec_cont {
+        transform: translateY(55%);
     }
 
 }
@@ -72,9 +112,10 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    body{
+    body {
         overflow-x: hidden;
     }
+
     .main_area {
         padding-bottom: 90px;
     }
@@ -92,6 +133,14 @@
         overflow: hidden;
         margin-bottom: 30px;
         position: relative;
+    }
+
+    .content_overlay .content_text {
+        transform: translateY(60%);
+        -webkit-transform: translateY(60%);
+        -moz-transform: translateY(70%);
+        -ms-transform: translateY(60%);
+        -o-transform: translateY(60%);
     }
 
     .content_overlay p.pera_pading {
@@ -152,7 +201,7 @@
         width: 100%;
         padding: 0 15px;
         padding-top: 123px;
-        background: linear-gradient(transparent,#060E1B);
+        background: linear-gradient(transparent, #060E1B);
         height: 100vh;
         z-index: 99999999;
         overflow-y: scroll;
@@ -168,9 +217,10 @@
 
 /* small mobile :320px. */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    body{
+    body {
         overflow-x: hidden;
     }
+
     .main_area {
         padding-bottom: 90px;
     }
@@ -190,6 +240,17 @@
         position: relative;
     }
 
+    .content_overlay .content_text {
+        transform: translateY(66%);
+        -webkit-transform: translateY(66%);
+        -moz-transform: translateY(66%);
+        -ms-transform: translateY(66%);
+        -o-transform: translateY(66%);
+    }
+
+    /* .content_text.cont-jeada {
+        transform: translateY(60%);
+    } */
     .content_overlay p.pera_pading {
         padding-bottom: 85px;
     }
@@ -208,7 +269,7 @@
     }
 
     .heading h2 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .content_btn.pt-res {
@@ -229,7 +290,7 @@
         left: 100%;
         top: 50%;
         background: #ffffff;
-        width: 340%;
+        width: 227%;
         height: 1px;
     }
 
@@ -248,7 +309,7 @@
         width: 100%;
         padding: 0 15px;
         padding-top: 123px;
-        background: linear-gradient(transparent,#060E1B);
+        background: linear-gradient(transparent, #060E1B);
         height: 100vh;
         z-index: 999999999;
         overflow-y: scroll;
@@ -262,16 +323,19 @@
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 575.98px) {
-    body{
+    body {
         overflow-x: hidden;
     }
+
     .header_area h2 {
-        font-size: 40px;
+        font-size: 38px;
     }
+
     .profile_img {
         width: 120px;
         height: 120px;
     }
+
     .main_area {
         padding-bottom: 90px;
     }
@@ -279,14 +343,17 @@
     .profile_area {
         padding: 24px 15px 59px;
     }
+
     .profile_btns a {
         color: #ffffff;
         font-size: 17px;
         font-weight: 700;
     }
+
     .profile_btns .mr-45 {
         margin-right: 12px;
     }
+
     .profile_btns a img {
         padding-right: 3px;
     }
@@ -294,6 +361,7 @@
     .profile_btns {
         padding-top: 46px;
     }
+
     .single_content_card {
         border-radius: 30px;
         overflow: hidden;
@@ -319,7 +387,7 @@
     }
 
     .heading h2 {
-        font-size: 30px;
+        font-size: 27px;
         margin-top: 12px;
     }
 
@@ -341,7 +409,7 @@
         left: 100%;
         top: 50%;
         background: #ffffff;
-        width: 100%;
+        width: 81%;
         height: 1px;
     }
 
@@ -360,10 +428,34 @@
         width: 100%;
         padding: 0 15px;
         padding-top: 79px;
-        background: linear-gradient(transparent,#060E1B);
+        background: linear-gradient(transparent, #060E1B);
         height: 100vh;
         z-index: 999999999;
         overflow-y: scroll;
+    }
+
+    .content_overlay .content_text {
+        transform: translateY(62%);
+        -webkit-transform: translateY(62%);
+        -moz-transform: translateY(62%);
+        -ms-transform: translateY(62%);
+        -o-transform: translateY(62%);
+    }
+
+    .content_text.cont-jeada {
+        transform: translateY(51%);
+        -webkit-transform: translateY(51%);
+        -moz-transform: translateY(51%);
+        -ms-transform: translateY(51%);
+        -o-transform: translateY(51%);
+    }
+
+    .content_text.sec_cont {
+        transform: translateY(58%);
+    }
+
+    .content_text.fourth {
+        transform: translateY(66%);
     }
 
     .content_btn {
