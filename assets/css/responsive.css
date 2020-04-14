@@ -1,0 +1,370 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500.98px) {
+    .main_area {
+        padding-bottom: 90px;
+    }
+
+    .profile_area {
+        padding: 24px 20px 80px 19px;
+    }
+
+    .profile_btns {
+        padding-top: 69px;
+    }
+
+    .content_overlay p.pera_pading {
+        padding-bottom: 60px;
+    }
+
+    .content_overlay.active p.pera_pading {
+        padding-bottom: 48px;
+    }
+
+    .close_btn {
+        right: 14px;
+        width: 130px;
+    }
+
+    .heading h2 {
+        font-size: 33px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main_area {
+        padding-bottom: 90px;
+    }
+
+    .profile_area {
+        padding: 24px 20px 80px 19px;
+    }
+
+    .profile_btns {
+        padding-top: 69px;
+    }
+
+    .content_overlay p.pera_pading {
+        padding-bottom: 85px;
+    }
+
+    .content_overlay.active p.pera_pading {
+        padding-bottom: 84px;
+    }
+
+    .close_btn {
+        right: 14px;
+        width: 130px;
+    }
+
+    .heading h2 {
+        font-size: 33px;
+    }
+
+    .content_btn.pt-res {
+        padding-top: 24px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+        overflow-x: hidden;
+    }
+    .main_area {
+        padding-bottom: 90px;
+    }
+
+    .profile_area {
+        padding: 24px 40px 80px 40px;
+    }
+
+    .profile_btns {
+        padding-top: 69px;
+    }
+
+    .single_content_card {
+        border-radius: 30px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .content_overlay p.pera_pading {
+        padding-bottom: 85px;
+    }
+
+    .content_overlay.active p.pera_pading {
+        padding-bottom: 84px;
+    }
+
+    .close_btn {
+        right: 26px;
+        width: 175px;
+    }
+
+    .single_content_card p {
+        padding-top: 44px;
+    }
+
+    .heading h2 {
+        font-size: 45px;
+    }
+
+    .content_btn.pt-res {
+        padding-top: 24px;
+    }
+
+    .project_title {
+        font-family: "neue-haas-grotesk-display", sans-serif;
+        color: #fff;
+        font-size: 35px;
+        padding: 48px 18px;
+        position: relative;
+    }
+
+    .project_title::before {
+        position: absolute;
+        content: '';
+        left: 100%;
+        top: 50%;
+        background: #ffffff;
+        width: 340%;
+        height: 1px;
+    }
+
+    .card_wrap {
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+    }
+
+    .card_wrap.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 15px;
+        padding-top: 123px;
+        background: linear-gradient(transparent,#060E1B);
+        height: 100vh;
+        z-index: 999999999;
+    }
+
+    .content_btn {
+        text-align: center;
+        padding: 100px 0 50px;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        overflow-x: hidden;
+    }
+    .main_area {
+        padding-bottom: 90px;
+    }
+
+    .profile_area {
+        padding: 24px 40px 80px 40px;
+    }
+
+    .profile_btns {
+        padding-top: 69px;
+    }
+
+    .single_content_card {
+        border-radius: 30px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .content_overlay p.pera_pading {
+        padding-bottom: 85px;
+    }
+
+    .content_overlay.active p.pera_pading {
+        padding-bottom: 84px;
+    }
+
+    .close_btn {
+        right: 26px;
+        width: 175px;
+    }
+
+    .single_content_card p {
+        padding-top: 44px;
+    }
+
+    .heading h2 {
+        font-size: 45px;
+    }
+
+    .content_btn.pt-res {
+        padding-top: 24px;
+    }
+
+    .project_title {
+        font-family: "neue-haas-grotesk-display", sans-serif;
+        color: #fff;
+        font-size: 35px;
+        padding: 48px 18px;
+        position: relative;
+    }
+
+    .project_title::before {
+        position: absolute;
+        content: '';
+        left: 100%;
+        top: 50%;
+        background: #ffffff;
+        width: 340%;
+        height: 1px;
+    }
+
+    .card_wrap {
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+    }
+
+    .card_wrap.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 15px;
+        padding-top: 123px;
+        background: linear-gradient(transparent,#060E1B);
+        height: 100vh;
+        z-index: 999999999;
+    }
+
+    .content_btn {
+        text-align: center;
+        padding: 100px 0 50px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 575.98px) {
+    body{
+        overflow-x: hidden;
+    }
+    .header_area h2 {
+        font-size: 40px;
+    }
+    .profile_img {
+        width: 120px;
+        height: 120px;
+    }
+    .main_area {
+        padding-bottom: 90px;
+    }
+
+    .profile_area {
+        padding: 24px 15px 59px;
+    }
+    .profile_btns a {
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .profile_btns .mr-45 {
+        margin-right: 12px;
+    }
+    .profile_btns a img {
+        padding-right: 3px;
+    }
+
+    .profile_btns {
+        padding-top: 46px;
+    }
+    .single_content_card {
+        border-radius: 30px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .content_overlay p.pera_pading {
+        padding-bottom: 85px;
+    }
+
+    .content_overlay.active p.pera_pading {
+        padding-bottom: 84px;
+    }
+
+    .close_btn {
+        right: 16px;
+        width: 73px;
+    }
+
+    .single_content_card p {
+        padding-top: 28px;
+    }
+
+    .heading h2 {
+        font-size: 30px;
+        margin-top: 12px;
+    }
+
+    .content_btn.pt-res {
+        padding-top: 24px;
+    }
+
+    .project_title {
+        font-family: "neue-haas-grotesk-display", sans-serif;
+        color: #fff;
+        font-size: 35px;
+        padding: 48px 18px;
+        position: relative;
+    }
+
+    .project_title::before {
+        position: absolute;
+        content: '';
+        left: 100%;
+        top: 50%;
+        background: #ffffff;
+        width: 340%;
+        height: 1px;
+    }
+
+    .card_wrap {
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+    }
+
+    .card_wrap.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 15px;
+        padding-top: 79px;
+        background: linear-gradient(transparent,#060E1B);
+        height: 100vh;
+        z-index: 999999999;
+    }
+
+    .content_btn {
+        text-align: center;
+        padding: 30px 0 14px;
+    }
+}

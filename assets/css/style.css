@@ -1,0 +1,458 @@
+/*
+  Theme Name: Name - 
+  Author: Humayun Ahmed
+  Support: humayunahmed82@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+
+*/
+
+
+/*===========================
+    1. Theme default css 
+===========================*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background: url(../images/body-bg.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #1d2025;
+    margin-top: 0px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #909291;
+    margin-bottom: 0px;
+}
+
+.bg_cover {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+}
+
+
+
+/*===========================
+    2.HEADER CSS
+===========================*/
+.header_area {
+	padding: 30px 0;
+}
+
+.header_area h2 {
+    font-family: "neue-haas-grotesk-display",sans-serif;
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1;
+}
+
+/*===========================
+    3.profile-area css 
+===========================*/
+.profile_area {
+	background: #24233c;
+	text-align: center;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	padding: 24px 20px 73px 19px;
+}
+
+.profile_img {
+    display: inline-block;
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_img img {
+    width: 100%;
+}
+
+.profile_title {}
+
+.profile_title h3 {
+    font-family: "neue-haas-grotesk-display",sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.profile_title h4 {
+    font-family: "neue-haas-grotesk-display",sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.profile_des {}
+
+.profile_des p {
+    color: #fff;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #707070;
+    padding-top: 26px;
+}
+
+.profile_btns {
+    display: flex;
+    padding-top: 50px;
+}
+
+.profile_btns a {
+    background: #7ca4ff;
+    width: 160px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 15px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.profile_btns a img {
+    padding-right: 15px;
+}
+
+.profile_btns a span {}
+
+/*===========================
+    4. single-content-css 
+===========================*/
+.single_content_card{
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content_overlay {
+    background: linear-gradient(rgba(255, 255, 255, 0.40),rgba(0, 0, 0, 0.40));
+    /*background: rgba(36, 35, 60, 0.66);
+    */padding: 23px;
+    transition:all .3s linear ;
+    -webkit-transition:all .3s linear ;
+    -moz-transition:all .3s linear ;
+    -ms-transition:all .3s linear ;
+    -o-transition:all .3s linear ;
+}
+.content_overlay.active {
+    background: rgba(36, 35, 60, 0.66);
+}
+.content_overlay .content_text {
+    transform: translateY(60%);
+    -webkit-transform: translateY(60%);
+    -moz-transform: translateY(60%);
+    -ms-transform: translateY(60%);
+    -o-transform: translateY(60%);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+.content_overlay.active .content_text{
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+.text_head{
+    position: relative;
+}
+.heading{}
+.heading h2 {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 0;
+}
+.content_overlay.brack_span {
+	display: inline-block;
+}
+.content_overlay.active .brack_span {
+	display: block;
+}
+.close_btn {
+	position: absolute;
+	right: 38px;
+	top: 24px;
+	background: rgba(124, 163, 255, 0.44);
+	border: 0;
+	font-family: "neue-haas-grotesk-display",sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	line-height: 55px;
+	width: 174px;
+	cursor: pointer;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	z-index: 999999;
+}
+.close_btn.active{
+    opacity: 1;
+    visibility: visible;
+}
+.single_content_card p {
+	font-size: 20px;
+	color: #ffffff;
+	padding-top: 20px;
+}
+.content_overlay p.pera_pading {
+    padding-bottom: 71px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+.content_overlay.active p.pera_pading {
+	padding-bottom: 25px;
+}
+.content_btn{
+    text-align: right;
+}
+.content_btn a {
+	background: #7CA4FF;
+	width: 174px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 55px;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*===========================
+    5. css 
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================
+    6. css 
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================
+    7. css 
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================
+    8. css 
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================
+    9. css 
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================
+    10. css 
+===========================*/
+
+
+
+
