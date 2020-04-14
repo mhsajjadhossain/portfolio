@@ -49,9 +49,11 @@ $(function () {
                     scrollTop: 0,
                 }, 200);
 
-                
+                $("body").css("overflow-y","hidden")
             })
-            
+            $(".close_btn").on('click',function(){
+                $("body").css("overflow-y","scroll")
+            })
 
         } else {
             $('.swiper-wrapper').addClass('d-flex');

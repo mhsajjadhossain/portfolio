@@ -154,7 +154,8 @@
         padding-top: 123px;
         background: linear-gradient(transparent,#060E1B);
         height: 100vh;
-        z-index: 999999999;
+        z-index: 99999999;
+        overflow-y: scroll;
     }
 
     .content_btn {
@@ -250,6 +251,7 @@
         background: linear-gradient(transparent,#060E1B);
         height: 100vh;
         z-index: 999999999;
+        overflow-y: scroll;
     }
 
     .content_btn {
@@ -361,6 +363,7 @@
         background: linear-gradient(transparent,#060E1B);
         height: 100vh;
         z-index: 999999999;
+        overflow-y: scroll;
     }
 
     .content_btn {
